@@ -1,0 +1,13 @@
+{
+  "employeeId": 777,
+  "firstName": "Виктор",
+  "lastName": "Иванов",
+  "age": 32,
+  "patronymic": null,
+  "gender": "MALE",
+  "hobbies": [
+    "hiking",
+    "swimming",
+    "sleeping"
+  ]
+}
