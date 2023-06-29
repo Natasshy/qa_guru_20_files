@@ -50,7 +50,7 @@ public class FilesTest {
 
     @Test
     @DisplayName("XLS - тест чтения и проверки содержимого файла из архива")
-    void XlsFileCheck() throws Exception {
+    void xlsFileCheck() throws Exception {
         try (ZipFile zip = new ZipFile(new File("src/test/resources/Archive 2.zip"))) {
             ZipEntry entry = zip.getEntry("Новая таблица.xlsx");
             InputStream inputStream = zip.getInputStream(entry);
